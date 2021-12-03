@@ -14,6 +14,6 @@ namespace Assignment2.AbstractFactory
         }
 
         public string Name { get; set; }
-        public string FavoriteToy { get; set; } = "Mouse";
+        public string FavoriteToy { get; set; } = "Mus";
     }
 }

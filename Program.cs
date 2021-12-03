@@ -11,10 +11,10 @@ namespace Assignment2
     {
         private static void Main(string[] args)
         {
-            //Console.WriteLine("Abstract Factory");
-            //AbstractFactoryMain abstractFactory = new();
-            //abstractFactory.Run();
-            //Console.WriteLine();
+            Console.WriteLine("Abstract Factory");
+            AbstractFactoryMain abstractFactory = new();
+            abstractFactory.Run();
+            Console.WriteLine();
 
             //Console.WriteLine("Facade");
             //FacadeMain facadeMain = new();
@@ -26,9 +26,9 @@ namespace Assignment2
             //adapterMain.Run();
             //Console.WriteLine();
 
-            Console.WriteLine("State Command Memento");
-            SCMMain scmMain = new();
-            scmMain.Run();
+            //Console.WriteLine("State Command Memento");
+            //SCMMain scmMain = new();
+            //scmMain.Run();
         }
     }
 }

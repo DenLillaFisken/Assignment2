@@ -9,7 +9,6 @@ namespace Assignment2.Facade
     public class WordFacade
     {
 
-
         List<char> one = new();
         List<char> two = new();
         List<char> three = new();
@@ -18,13 +17,16 @@ namespace Assignment2.Facade
 
         public void SaveWord()
         {
-            // Save Word
+            Console.WriteLine("Enter word with EXACTLY 5 charaters: ");
+
             string input = Console.ReadLine();
+            //om fel input
             if (input.Length != 5)
             {
                 Console.WriteLine("Exiting program - Error - The string needs to be EXACTLY 5 characters long");
                 Console.ReadKey(true);
             }
+            //Sparar ned ordet 
             else
             {
                 one.Add(input[0]);

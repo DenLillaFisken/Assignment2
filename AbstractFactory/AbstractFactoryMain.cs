@@ -14,7 +14,7 @@ namespace Assignment2.AbstractFactory
         public void Run()
         {
             var factoryFactory = new FactoryFactory();
-            string typeOfAnimal = "cat";
+            string typeOfAnimal = "dog";
             var animalFactory = factoryFactory.GetFactory(typeOfAnimal);
 
             if (typeOfAnimal == "dog")
@@ -26,7 +26,7 @@ namespace Assignment2.AbstractFactory
             else if(typeOfAnimal == "cat")
             {
                 var cat = animalFactory.CreateAnimal("Misse");
-                Console.WriteLine("Hundens namn är " + cat.Name);
+                Console.WriteLine("Kattens namn är " + cat.Name);
                 Console.WriteLine("Favoritleksak: " + cat.FavoriteToy);
             }
             else
